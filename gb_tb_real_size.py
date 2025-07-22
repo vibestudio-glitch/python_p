@@ -4,9 +4,9 @@ user_unit = input(">")
 
 # Set conversion rate based on chosen unit
 if user_unit.lower() == "tb":
-    rate = 1_000_000_000_000 / 1_099_511_627_776
+    rate = 1000000000000 / 1099511627776
 elif user_unit.lower() == "gb":
-    rate = 1_000_000_000 / 1_073_741_824
+    rate = 1000000000 / 1073741824
 else:
     print("Unknown unit entered.")
     exit()
